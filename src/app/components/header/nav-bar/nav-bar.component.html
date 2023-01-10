@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid flex-around">
+      <div>
+        
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+            <a class="navbar-brand" routerLink="/"><img src="../../../../assets/images/logo.jpg" style="width: 10vw;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>   
+
+            <div class="navbar-nav">
+            <a class="nav-link" routerLink="/searchmap">Explore</a>
+            <a class="nav-link" href="#">Forum</a>
+            <a class="nav-link disabled">Community</a>
+            <a class="nav-link disabled">The App</a>
+            <a class="nav-link disabled">Shop</a>
+            <a class="nav-link disabled">More</a>
+            </div>
+        </div>
+      </div>
+
+      <div>
+        <button class="btn"><fa-icon [icon]="faMagnifyingGlass"></fa-icon></button>
+        <button class="btn">Add Listing</button>
+        <button class="btn">Login / Join</button>
+      </div>
+    </div>
+  </nav>
