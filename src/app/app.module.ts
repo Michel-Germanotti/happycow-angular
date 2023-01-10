@@ -13,6 +13,7 @@ import { SearchComponent } from './components/header/search/search.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { SearchmapComponent } from './pages/searchmap/searchmap.component';
 import { MapComponent } from './components/map/map.component';
+import { Proj4Component } from './components/map/proj4/proj4.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { MapComponent } from './components/map/map.component';
     CarouselComponent,
     SearchmapComponent,
     MapComponent,
+    Proj4Component,
   ],
   imports: [
     BrowserModule,
